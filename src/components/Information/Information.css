@@ -1,0 +1,45 @@
+.section-information {
+  padding: 0 1.2rem;
+  margin-top: 30rem;
+}
+
+.information-card {
+  color: #fff;
+  max-width: 70rem;
+
+  border-radius: 12px;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.7);
+  background-color: #333;
+
+  padding: 1.8rem;
+
+  text-align: center;
+
+  margin: 0 auto 3rem;
+}
+
+.information-card__heading {
+  font-size: 3.6rem;
+  margin-bottom: 3rem;
+}
+
+.information-card__text {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .section-information {
+    margin-top: 25rem;
+  }
+
+  .information-card__heading {
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .information-card__text {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}

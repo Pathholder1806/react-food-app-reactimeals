@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Pizza",
+    "Description": "Bestest Italian dish",
+    "price": "20.59"
+  },
+  {
+    "title": "Burger",
+    "Description": "American favourite",
+    "price": "15.99"
+  },
+  {
+    "title": "Chicken Sub",
+    "Description": "Garlic bread stuffed with minced chicken",
+    "price": "17.29"
+  },
+  {
+    "title": "Haka Noodles",
+    "Description": "Right from the chinese kitchen",
+    "price": "11.99"
+  },
+  {
+    "title": "Tandoori Chicken",
+    "Description": "Marinated chicken cooked in Punjabi style",
+    "price": "18.99"
+  },
+  {
+    "title": "Momos",
+    "Description": "The best from out kitchen",
+    "price": "8.29"
+  },
+  {
+    "title": "Green Veggie Salad",
+    "Description": "Full of fresh veggies and dressed with black pepper",
+    "price": "11.29"
+  },
+  {
+    "title": "French Fries",
+    "Description": "Crispy sticks of potato with peri-peri and cheese",
+    "price": "7.99"
+  }
+]

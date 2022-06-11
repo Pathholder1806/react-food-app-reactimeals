@@ -1,0 +1,12 @@
+.section-food {
+  padding: 0 1.2rem;
+}
+
+.section-food__container {
+  max-width: 120rem;
+  margin: 0 auto 2.4rem;
+  padding: 1.2rem;
+
+  background-color: #eee;
+  border-radius: 12px;
+}

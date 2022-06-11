@@ -1,0 +1,119 @@
+.food-item {
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.2rem 2.4rem;
+
+  margin-bottom: 1.2rem;
+  border-radius: 9px;
+}
+
+.food-item:last-child {
+  border: none;
+}
+
+.food-item__text-box {
+}
+
+.food-item__title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.food-item__description {
+  font-size: 2.1rem;
+  font-style: italic;
+  font-weight: 400;
+
+  margin-bottom: 1.2rem;
+}
+
+.food-item__price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #952626;
+}
+
+.food-item__form {
+}
+
+.food-item__form-group {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+
+  margin-bottom: 1.2rem;
+}
+
+.food-item__form-group label {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.food-item__form-group input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  width: 6rem;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.food-item__form button {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+
+  outline: none;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+
+  border: 1px solid #ccc;
+  border-radius: 12px;
+
+  background-color: #952626;
+}
+
+@media (max-width: 500px) {
+  .food-item__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .food-item__description {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 400;
+
+    margin-bottom: 1.2rem;
+  }
+
+  .food-item__price {
+    font-size: 1.2 rem;
+    font-weight: 700;
+    color: #952626;
+  }
+
+  .food-item__form-group label {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .food-item__form button {
+    font-size: 1.2rem;
+    border-radius: 9px;
+  }
+}

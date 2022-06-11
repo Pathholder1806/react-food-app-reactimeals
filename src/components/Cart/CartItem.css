@@ -1,0 +1,55 @@
+.section-cart__item {
+  background-color: #fff;
+  padding: 1.2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.order-item-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.order-item-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.order-item-quantity {
+  font-size: 2rem;
+}
+
+.order-action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.order-action button {
+  padding: 0.3rem 1.8rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #952626;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.order-action button:hover {
+  filter: brightness(80%);
+}
+
+.order-action button:nth-child(3) {
+  grid-column: 1/-1;
+}
